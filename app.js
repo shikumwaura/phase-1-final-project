@@ -96,7 +96,7 @@ taskList.addEventListener('click', async (e) => {
   }
 });
 
-// Filter buttons event listener
+
 filterButtons.addEventListener('click', (e) => {
   if (e.target.tagName === 'BUTTON') {
     currentFilter = e.target.dataset.filter;
