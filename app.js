@@ -62,7 +62,7 @@ taskForm.addEventListener('submit', async (e) => {
   }
 });
 
-// Event delegation for checkbox change and delete button click
+
 taskList.addEventListener('click', async (e) => {
   const li = e.target.closest('li');
   if (!li) return;
