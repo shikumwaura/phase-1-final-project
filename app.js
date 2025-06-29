@@ -19,7 +19,7 @@ async function fetchTasks() {
   }
 }
 
-// Render tasks based on current filter
+
 function renderTasks() {
   let filteredTasks = tasks;
   if (currentFilter === 'completed') {
