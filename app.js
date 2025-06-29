@@ -37,7 +37,6 @@ function renderTasks() {
   `).join('');
 }
 
-// Add event listener for form submission
 taskForm.addEventListener('submit', async (e) => {
   e.preventDefault();
 
